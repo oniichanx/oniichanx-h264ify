@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Výběr kodeků pro přehrávání ve službě YouTube",
+    "description": "Extension description"
+  },
+
+  "optionsTitle": {
+    "message": "oniichanx-h264ify"
+  },
+
+  "optionsBlock60fps": {
+    "message": "Blokovat 60fps videa"
+  },
+
+  "optionsBlockH264": {
+    "message": "Blokovat H.264"
+  },
+
+  "optionsBlockVP8": {
+    "message": "Blokovat VP8"
+  },
+
+  "optionsBlockVP9": {
+    "message": "Blokovat VP9"
+  },
+
+  "optionsBlockAV1": {
+    "message": "Blokovat AV1"
+  },
+
+  "optionsDisableLN": {
+    "message": "Disable Loudness Normalization"
+  }
+
+}
