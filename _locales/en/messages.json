@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Pick your YouTube playback codecs",
+    "description": "Extension description"
+  },
+
+  "optionsTitle": {
+    "message": "oniichanx-h264ify"
+  },
+
+  "optionsBlock60fps": {
+    "message": "Block 60fps videos"
+  },
+
+  "optionsBlockH264": {
+    "message": "Block H.264"
+  },
+
+  "optionsBlockVP8": {
+    "message": "Block VP8"
+  },
+
+  "optionsBlockVP9": {
+    "message": "Block VP9"
+  },
+
+  "optionsBlockAV1": {
+    "message": "Block AV1"
+  },
+
+  "optionsDisableLN": {
+    "message": "Disable Loudness Normalization"
+  }
+
+}
