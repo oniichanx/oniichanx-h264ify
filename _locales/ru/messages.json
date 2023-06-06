@@ -1,0 +1,35 @@
+{
+  "extensionDescription": {
+    "message": "Выберите кодеки для воспроизведения YouTube",
+    "description": "Extension description"
+  },
+
+  "optionsTitle": {
+    "message": "oniichanx-h264ify"
+  },
+
+  "optionsBlock60fps": {
+    "message": "Блокировать 60к/с видео"
+  },
+
+  "optionsBlockH264": {
+    "message": "Блокировать H.264"
+  },
+
+  "optionsBlockVP8": {
+    "message": "Блокировать VP8"
+  },
+
+  "optionsBlockVP9": {
+    "message": "Блокировать VP9"
+  },
+
+  "optionsBlockAV1": {
+    "message": "Блокировать AV1"
+  },
+
+  "optionsDisableLN": {
+    "message": "Выключить нормализацию громкости"
+  }
+
+}
