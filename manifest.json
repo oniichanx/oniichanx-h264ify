@@ -1,0 +1,39 @@
+{
+  "name": "oniichanx-h264ify",
+  "version": "3.1.0",
+  "manifest_version": 2,
+  "description": "Improves YouTube playback performance by using your desired codecs.",
+  "homepage_url": "https://github.com/oniichanx/oniichanx-h264ify",
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "oniichanx-h264ify",
+    "default_popup": "options.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*",
+        "*://*.youtubekids.com/*",
+        "*://*.youtube-nocookie.com/*",
+        "*://*.youtu.be/*"
+      ],
+      "js": [
+        "src/inject/inject.js",
+        "src/inject/content_script.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "default_locale": "en",
+  "options_ui": {
+    "page": "options.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
